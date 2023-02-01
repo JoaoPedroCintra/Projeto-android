@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+} 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom,rgb(61, 219, 134),rgb(45, 159, 97),rgb(26, 92, 56));
+    margin-top: 0%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    border-radius: 2.5px;
+    padding: 5px;
+}
+
+nav > a:hover{
+    background-color: rgb(28, 91, 55);
+   
+}
+
+body {
+   background-color: #E8E5C2;
+   margin: 0px;
+}
+
+main{
+    text-align: justify;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px rgb(0,0,0,0.3);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h1,h2{
+    font-family: 'android';
+    color: #1a5c38;
+    font-weight:bold ;
+}
+main > h2{
+    margin-left: 5px;
+    background-image: linear-gradient(to right,rgba(103, 219, 155, 0.700), white) ;
+    padding: 5px;
+}
+
+main a{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main > p{
+    text-indent: 20px;
+}
+
+main > div{
+    margin: auto;
+}
+
+main > img{
+    display: block;
+    margin:auto;
+    max-width:400px;
+}
+
+main iframe{
+    display: block;
+    margin: auto;
+}
+
+picture > img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    
+}
+
+ p>a::after{
+    content:url(pacote-projeto-d010/imagens/link_icon.png);
+    margin: 2px;
+}
+
+span{
+    color: green;
+    font-weight: bold;
+}
+
+section{
+    margin: 10px;
+    background-color: #84e0ad82;
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.200);
+}
+
+section > div{
+    background-color: #86F799;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+section > aside{
+    padding: 15px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    list-style-type: '\2714';
+    columns:2;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #1a5c38;
+    padding: 5px; 
+}
