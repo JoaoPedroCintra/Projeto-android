@@ -5,6 +5,8 @@
 } 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -13,12 +15,28 @@ header {
     margin-top: 0%;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding-top: 30px;
     
+}
+
+header > h1 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header > p {  
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    color: white;
 }
 
 nav {
     text-align: left;
+    padding: 10px;
+    box-shadow: 0px 7px 4px rgb(0,0,0,0.2);
 }
 
 nav > a {
@@ -27,6 +45,7 @@ nav > a {
     margin-right: 15px;
     border-radius: 2.5px;
     padding: 5px;
+    font-weight: bold;
 }
 
 nav > a:hover{
@@ -36,14 +55,13 @@ nav > a:hover{
 
 body {
    background-color: #E8E5C2;
-   margin: 0px;
 }
 
 main{
     text-align: justify;
     background-color: white;
     color: black;
-    padding: 10px;
+    padding: 20px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
@@ -71,6 +89,8 @@ main a{
 
 main > p{
     text-indent: 20px;
+    margin: 10px 0px;
+    line-height: 1.5em;
 }
 
 main > div{
@@ -95,7 +115,7 @@ picture > img{
     
 }
 
- p>a::after{
+ p > a::after{
     content:url(pacote-projeto-d010/imagens/link_icon.png);
     margin: 2px;
 }
@@ -105,23 +125,34 @@ span{
     font-weight: bold;
 }
 
-section{
-    margin: 10px;
+.video{
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5% ;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    padding: 15px;
     background-color: #84e0ad82;
     border-radius: 15px;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.200);
 }
 
-section > div{
+aside > div{
     background-color: #86F799;
     border-radius: 15px 15px 0px 0px;
+    margin: -15px -15px 0px -15px;
     color: white;
     font-weight: bold;
     padding: 10px;
-}
-
-section > aside{
-    padding: 15px;
 }
 
 aside > ul{
@@ -136,4 +167,6 @@ footer{
     color: white;
     background-color: #1a5c38;
     padding: 5px; 
+    font-size: 0.8em;
+    font-weight: bold;
 }
